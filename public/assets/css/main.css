@@ -47,7 +47,17 @@
         height: 10px; }
 
 .articleTwo {
-  padding: 20px; }
+  margin-top: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; }
+  .articleTwo .textTwo {
+    color: #4a4a4a;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    line-height: 30px;
+    width: 315px; }
   .articleTwo .small {
     font-family: "Roboto", sans-serif;
     color: #6c933e;
@@ -55,17 +65,56 @@
   .articleTwo .titleTwo {
     text-transform: uppercase; }
   .articleTwo .buy {
-    color: black;
+    color: #6c933e;
+    font-family: "Roboto Slab", serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 40px;
-    width: 70px;
+    width: 160px;
     text-decoration: none;
     background-color: white;
     border: solid #6c933e;
-    border-radius: 30%; }
+    border-radius: 20px;
+    margin-top: 10px; }
+
+.sectionThree {
+  background-color: #d9e4cc;
+  text-align: center; }
+  .sectionThree .smallT {
+    color: #4a4a4a;
+    font-family: "Roboto Slab", serif; }
+  .sectionThree .titleThree {
+    text-transform: uppercase;
+    color: black;
+    font-family: "Roboto Slab", serif;
+    font-size: 22px; }
+  .sectionThree .circleImages {
+    display: grid;
+    grid-template-columns: 1rf 1fr 1fr;
+    grid-template-areas: 'imageOne' 'imagetwo' 'imageThree';
+    justify-content: center;
+    justify-items: center;
+    gap: 10px;
+    margin-top: 25px; }
+  .sectionThree .imageOne {
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 4px 4px gray; }
+  .sectionThree .imagetwo {
+    height: 150px;
+    border-radius: 50%;
+    border-radius: 50%;
+    box-shadow: 0 4px 4px gray; }
+  .sectionThree .imageThree {
+    height: 150px;
+    border-radius: 50%;
+    border-radius: 50%;
+    box-shadow: 0 4px 4px gray; }
+  .sectionThree .txtimg {
+    font-family: "Roboto Slab", serif;
+    color: #4a4a4a; }
 
 .header .menu {
   background-color: #6c933e;

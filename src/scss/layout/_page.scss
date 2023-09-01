@@ -88,11 +88,23 @@
   }
 
   .articleTwo {
-
+    margin-top: 15px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     
-
-
+    
+    .textTwo {
+      color: $color_tertiary;
+      font-size: 20px;
+      font-family: $font-two;
+      line-height: 30px;
+      width: 315px;
+       
+    }
+    
+    
     .small {
       font-family: $font-two;
       color: $color-primary;
@@ -105,18 +117,83 @@
 
     .buy {
       
-      color: black;
+      color:$color-primary;
+      font-family: $font-main;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       height: 40px;
-      width: 70px;
+      width: 160px;
       text-decoration: none;
       background-color: white;
       border:  solid $color-primary;
-      border-radius: 30%;
+      border-radius: 20px;
+      margin-top: 10px;
     }
 
   }
+
+.sectionThree {
+
+
+  background-color: $color-secondary;
+  text-align: center;
+
+  .smallT {
+    color: $color_tertiary;
+    font-family: $font-main;
+
+
+  }
+  .titleThree {
+    text-transform: uppercase;
+    color: black;
+    font-family: $font-main;
+    font-size: 22px;
+  }
+
+  
+  
+
+  .circleImages {
+  display: grid;
+  grid-template-columns: 1rf 1fr 1fr;
+  grid-template-areas: 'imageOne' 'imagetwo' 'imageThree';
+  justify-content: center;
+  justify-items: center;
+  gap: 10px;
+  margin-top: 25px;
+
+  }
+  
+  .imageOne {
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 4px 4px gray;
+    
+}
+
+  
+
+  .imagetwo {
+    height: 150px;
+    border-radius: 50%;
+    border-radius: 50%;
+    box-shadow: 0 4px 4px gray;
+    
+
+  }
+  .imageThree {
+    height: 150px;
+    border-radius: 50%;
+    border-radius: 50%;
+    box-shadow: 0 4px 4px gray;
+  }
+ .txtimg {
+  font-family: $font-main;
+  color: $color_tertiary;
+
+ }
+}
 
