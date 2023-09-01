@@ -17,7 +17,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    top: 120px;
+    top: 165px;
     gap: 30px; }
     .hero .article .title {
       font-size: 30px;
@@ -28,18 +28,44 @@
     .hero .article .text {
       color: white;
       font-family: "Roboto", sans-serif;
-      text-align: center; }
+      height: 100px;
+      width: 250px;
+      text-align: center;
+      font-size: 15px; }
     .hero .article .scroll-down {
       background-color: white;
       display: block;
-      height: 40px;
-      width: 40px;
+      height: 50px;
+      width: 50px;
       border-radius: 50px;
       display: flex;
       align-items: center;
-      justify-content: center; }
+      justify-content: center;
+      position: relative;
+      bottom: 30px; }
       .hero .article .scroll-down .icon-scroll {
         height: 10px; }
+
+.articleTwo {
+  padding: 20px; }
+  .articleTwo .small {
+    font-family: "Roboto", sans-serif;
+    color: #6c933e;
+    text-transform: uppercase; }
+  .articleTwo .titleTwo {
+    text-transform: uppercase; }
+  .articleTwo .buy {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 70px;
+    text-decoration: none;
+    background-color: white;
+    border: solid #6c933e;
+    border-radius: 30%; }
 
 .header .menu {
   background-color: #6c933e;
