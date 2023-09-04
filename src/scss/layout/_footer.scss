@@ -1,0 +1,205 @@
+.footer {
+
+
+    height: 600px;
+    background-color: $color_tertiary;
+
+
+    @media screen and (min-width:768px) {
+        height: 300px;
+
+    }
+
+
+
+    .arrow {
+        background-color: white;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translate(325%, -50%);
+
+
+        @media screen and (min-width:768px) {
+            transform: translate(700%, -50%);
+
+        }
+
+        @media screen and (min-width:1280px) {
+            transform: translate(1250%, -50%);
+
+
+        }
+
+    }
+
+
+
+    .menuFooter {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+
+        @media screen and (min-width:768px) {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 150px;
+            margin-top: 20px;
+
+
+        }
+
+
+
+
+
+        .menu-footer-one {
+            list-style: none;
+            text-transform: uppercase;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+
+
+
+            @media screen and (min-width:768px) {
+
+                order: 2;
+                align-items: flex-start;
+
+
+
+            }
+
+
+            .linkfooter {
+
+                text-decoration: none;
+                font-size: 20px;
+                color: white;
+                font-family: $font-two;
+
+
+            }
+
+
+
+
+
+
+        }
+
+        .menu-footer-two {
+            list-style: none;
+            text-transform: uppercase;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+
+            @media screen and (min-width:768px) {
+                order: 3;
+                align-items: flex-start;
+
+            }
+
+
+            .linkfooter {
+                text-decoration: none;
+                font-size: 20px;
+                color: white;
+                font-family: $font-two;
+
+
+
+            }
+
+        }
+
+        .copyRun {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            gap: 7px;
+            position: relative;
+            top: 30px;
+            list-style: none;
+
+            @media screen and (min-width:768px) {
+
+                order: 1;
+
+            }
+
+
+
+            .copi {
+                font-size: 15px;
+            }
+
+            .werun {
+                display: flex;
+                flex-direction: row;
+                gap: 7px;
+                text-transform: lowercase;
+
+
+
+                .heart {
+
+                    background-color: $color-primary;
+                    height: 10px;
+                    width: 10px;
+                    position: relative;
+                    transform: rotate(-45deg);
+                    top: 5px
+                }
+
+                .heart::before {
+
+                    content: '';
+                    position: absolute;
+                    top: -50%;
+                    height: 10px;
+                    width: 10px;
+                    background-color: $color-primary;
+                    border-radius: 50%;
+
+                }
+
+                .heart::after {
+                    content: '';
+                    position: absolute;
+                    right: -50%;
+                    height: 10px;
+                    width: 10px;
+                    background-color: $color-primary;
+                    border-radius: 50%;
+
+                }
+
+                .wertxt {
+                    font-size: 15px;
+                }
+
+            }
+        }
+
+
+
+
+
+    }
+
+
+
+
+}

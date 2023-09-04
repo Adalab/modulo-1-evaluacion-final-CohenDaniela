@@ -1,28 +1,26 @@
-
-
 .header {
-    
 
-.menu {
-    
-      background-color: $color-primary;
-      display:block;
-      width: 40px;
-      height: 40px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: fixed;
-  
-      
-      
-  
-      .icon-menu{
-       height: 25px;
-       padding: 5px;
-       
-       
-      }
-       
-      }
+
+  .menu {
+
+    background-color: $color-primary;
+    display: block;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+
+
+
+
+    .icon-menu {
+      height: 25px;
+      padding: 5px;
+
+
     }
+
+  }
+}

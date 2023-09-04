@@ -1,73 +1,104 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Comienzos Compartidos</title>
-    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" /> -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/main.css" />
-  </head>
 
-  <body>
-    <div class="page">
-      <header class="page__header">
-        
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Comienzos Compartidos</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto+Slab:wght@700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+
+<body>
+  <div class="page">
+    <header class="page__header">
+      
+    </header>
+
+    <main>
+      <header class="header">
+        <a class="menu" href="https://adalab.es/">
+          <img class="icon-menu" src="./assets/images/ico-menu.svg" alt="">
+        </a>
+
       </header>
+      <section id="hero" class="hero">
 
-      <main>
-        <header class="header">
-          <a class="menu" href="">
-            <img class="icon-menu" src="./assets/images/ico-menu.svg" alt="">
+        <article class="article">
+          <h1 class="title"> Comienzos compartidos </h1>
+          <p class="text">Todo lo que necesitan para volver al cole con ilusión</p>
+          <a class="scroll-down" href="#sectionThree">
+            <img class="icon-scroll" src="./assets/images/ico-scroll-down.svg" alt="">
           </a>
+        </article>
+      </section>
+      <section class="sectionTwo">
+        <article class="articleTwo">
+          <span class="small">Historias, moda y ropa deportiva</span>
+          <h2 class="titleTwo"> Tu tienda de deporte</h2>
+          <p class="textTwo">El deporte nos mantiene en forma.
+            Nos mantiene alerta. Nuestra ropa deportiva para hombre y mujer te ofrece las últimas tecnologías, a la altura
+            de tu rendimiento, para que superes tu mejor marca personal.
+          </p>
+          <a class="buy" href="">Comprar</a>
+        </article>
 
-        </header>
-        <section class="hero">
-          
-          <article class="article">
-            <h1 class="title"> Comienzos compartidos </h1>
-            <p class="text">Todo lo que necesitan para volver al cole con ilusión</p>
-            <a class="scroll-down" href="">
-              <img class="icon-scroll" src="./assets/images/ico-scroll-down.svg" alt="">
-            </a>
-          </article>
-        </section>
-        <section class="sectionTwo">
-          <article class="articleTwo">
-            <span class="small">Historias, moda y ropa deportiva</span>
-            <h2 class="titleTwo"> Tu tienda de deporte</h2>
-            <p class="textTwo">El deporte nos mantiene en forma. 
-              Nos mantiene alerta. Nuestra ropa deportiva para hombre y mujer te ofrece las últimas tecnologías, a la altura de tu rendimiento, para que superes tu mejor marca personal.
-              </p>
-              <a class="buy" href="">Comprar</a>
-          </article>
+      </section>
 
-        </section>
+      <section id="sectionThree" class="sectionThree">
 
-        <section class="sectionThree">
-          <small class="smallT">¡Prepáralos con tus marcas favoritas!</small>
-          <h3 class="titleThree">Vuelta al cole</h3>
-            <div class="circleImages">
-            <img class="imageOne" src="./assets/images/lpbts-mod05-img01-desk.png" alt="">
-            <span class="txtimg">Mochilas escolares</span>
-            <img class="imagetwo" src="./assets/images/lpbts-mod05-img04-mob.png" alt="">
-            <span class="txtimg">Estuches</span>
-          <img class="imageThree" src="./assets/images/lpbts-mod05-img03-mob.png" alt="">
-          <span class="txtimg">Bolsas de deporte</span>
-        </div>
+        <small class="smalltxt">¡Prepáralos con tus marcas favoritas!</small>
+        <h3 class="titleThree">Vuelta al cole</h3>
+        <ul class="circleImages">
+          <li class="imgOne"><img class="imageOne" src="./assets/images/lpbts-mod05-img01-desk.png" alt="Niña con mochila">
+            <figcaption class="txtimg">Mochilas escolares</figcaption>
+          <li class="imgTwo"><img class="imagetwo" src="./assets/images/lpbts-mod05-img04-mob.png" alt="Niño con estuche">
+            <figcaption class="txtimg">Estuches</figcaption>
+          <li class="imgThree"><img class="imageThree" src="./assets/images/lpbts-mod05-img03-mob.png" alt="Niña con bolsa">
+            <figcaption class="txtimg">Bolsas de deporte</figcaption>
+        </ul>
+        <a class="start" href="">Empezar ahora</a>
 
-        </section>
-        <footer></footer>
-      </main>
 
-      <footer class="page__footer">
-        
-      </footer>
 
-    </div>
-    <script src="./assets/js/main.js"></script>
-  </body>
+
+      </section>
+
+    </main>
+    <footer class="footer">
+        <a class="arrow" href="#hero"><img src="./assets/images/ico-arrow.svg" alt=""></a>
+        <nav class="menuFooter">
+            <ul class="menu-footer-one">
+                <li><a class="linkfooter" href="https://adalab.es/">Zapatillas </a></li>
+                <li> <a class="linkfooter" href="https://adalab.es/">Ropa</a></li>
+                <li><a class="linkfooter" href="https://adalab.es/">Niño/a</a></li>
+                <li><a class="linkfooter" href="https://adalab.es/">Destacados</a></li>
+                <li><a class="linkfooter" href="https://adalab.es/">Tips</a></li>
+            </ul>
+            <ul class="menu-footer-two">
+                <li><a class="linkfooter" href="https://adalab.es/">Twitter</a></li>
+                <li><a class="linkfooter" href="https://adalab.es/">Instagram</a></li>
+                <li><a class="linkfooter" href="https://adalab.es/">Youtube</a></li>
+            </ul>
+            <ul class="copyRun">
+                <li class="copy">©2023</li>
+                <li class="werun">we <div class="heart"></div>run</li>
+            </ul>
+
+
+
+        </nav>
+
+
+
+    </footer>
+  </div>
+  <script src="./assets/js/main.js"></script>
+</body>
+
 </html>
